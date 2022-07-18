@@ -21,6 +21,7 @@ public class Three {
             }else {
                 set.remove(chars[i]);
                 count++;
+
             }
         }
         return set.isEmpty()?count*2:count*2+1;
